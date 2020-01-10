@@ -1,0 +1,2 @@
+# ai-ubuntu
+Learn ubuntu
