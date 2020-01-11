@@ -14,7 +14,7 @@
 
 这里准备了150G的磁盘空间。
 
-<img src="images/disk.PNG" width='50%'>
+<img src="../images/disk.PNG" width='50%'>
 
 
 ## 安装
@@ -25,18 +25,13 @@
 
 开机按F12， 选择使用U盘启动。 选择第二项Install Ubuntu，按e键进入grub启动参数编辑，移动光标到倒数第二行linux ...splash，加上nomodeset，然后按F10 开始安装Ubuntu系统。
 
-<img src="images/grub.jpg" width='50%'>
+<img src="../images/grub.jpg" width='50%'>
 
 
 安装过程中，最重要的是分区这一步， 这里其实只需要设置一个/分区即可， 也可以多加个/home分区。不需要创建 /boot，不需要额外创建efi分区，不需要创建swap（台式机，内存够大，系统自动分配2G）
 
-<img src="images/diskpart.jpg" width='50%'>
+<img src="../images/diskpart.jpg" width='50%'>
 
 Device for boot loader就选择Windows Boot Manager
 
 然后开始安装。完成后重启， 进入系统的时候， 同样需要编辑grub补上nomodeset，才能正常登录系统。
-
-
-
-
-

@@ -6,19 +6,19 @@ CPU: AMD Ryzen 7 3700X
 GPU: Nvidia RTX 2060
 ```
 
-网上教程很杂，这里简单记录我安装的步骤， 具体包括：
+网上教程很杂，这里简单记录我安装的步骤，包括：
 
-## [安装Ubuntu](INSTALL.md)
+- [安装Ubuntu](docs/INSTALL.md)
 
-## [基本配置](CONFIG.md)
+- [基本配置](docs/CONFIG.md)
 
-## [安装Nvidia显卡驱动](NVIDIA.md)
+- [安装Nvidia显卡驱动](docs/NVIDIA.md)
 
-## [安装CUDA 10.1 + CUDNN 7.6.5](CUDA.md)
+- [安装CUDA 10.1 + CUDNN 7.6.5](docs/CUDA.md)
 
-## [安装Python开发环境](PYTHON.md)
+- [安装Python开发环境](docs/PYTHON.md)
 
-## [安装Docker](DOCKER.md)
+- [安装Docker](docs/DOCKER.md)
 
-## [删除Ubuntu](UNINSTALL.md)
+- [删除Ubuntu](docs/UNINSTALL.md)
 

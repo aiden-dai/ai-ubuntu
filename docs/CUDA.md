@@ -40,11 +40,11 @@ sudo sh cuda_10.1.243_418.87.00_linux.run
 
 因为驱动已经按照了更新的版本，所以这里取消勾选Driver
 
-<img src="images/cuda1.png" width='50%'>
+<img src="../images/cuda1.png" width='50%'>
 
 安装完成后
 
-<img src="images/cuda2.png" width='50%'>
+<img src="../images/cuda2.png" width='50%'>
 
 2. 安装Cudnn
 

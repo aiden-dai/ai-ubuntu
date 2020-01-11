@@ -38,7 +38,7 @@ sudo apt-get update
 
 Run 'ubuntu-drivers devices' to check available drivers
 
-<img src="images/ubuntu-drivers.png" width='50%'>
+<img src="../images/ubuntu-drivers.png" width='50%'>
 
 Automatically install recommemded drivers
 
@@ -52,4 +52,4 @@ Reboot
 
 Run nvidia-smi to check the installation.
 
-<img src="images/nvidia-smi.png" width='50%'>
+<img src="../images/nvidia-smi.png" width='50%'>

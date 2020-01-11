@@ -82,7 +82,7 @@ pip install xgboost
 
 配置Conda路径
 
-<img src="images/conda.png" width='50%'>
+<img src="../images/conda.png" width='50%'>
 
 
 ## Test
