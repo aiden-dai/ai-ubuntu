@@ -20,5 +20,7 @@ GPU: Nvidia RTX 2060
 
 - [安装Docker](docs/DOCKER.md)
 
+- [安装minikube](docs/MINIKUBE.md)
+
 - [删除Ubuntu](docs/UNINSTALL.md)
 
