@@ -53,7 +53,24 @@ pip install tensorflow-gpu
 
 ## Pytorch
 
-To be updated.
+配置Pytorch 环境， 当前最新版本是1.4
+
+```
+conda create -n pytorch python=3.7
+
+conda activate pytorch
+
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+```
+
+测试GPU
+
+```python
+import torch
+print('GPU: ',torch.cuda.is_available())
+```
+
+输出应该是GPU:  True
 
 
 ## Other Libraries
@@ -69,9 +86,6 @@ pip install xgboost
 
 安装Code及 Python 插件
 
-配置Conda路径
-
-<img src="../images/conda.png" width='50%'>
 
 
 ## Test
