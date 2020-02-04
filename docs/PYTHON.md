@@ -16,12 +16,20 @@ vi ~/.condarc
 ```
 auto_activate_base: false
 channels:
-  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
   - defaults
 show_channel_urls: true
+channel_alias: https://mirrors.tuna.tsinghua.edu.cn/anaconda
+default_channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+custom_channels:
+  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
 
 ## PIP
@@ -29,27 +37,8 @@ show_channel_urls: true
 配置PIP 国内源, 执行如下命令：
 
 ```bash
-mkdir ～/.pip
-
-vi ～/.pip/pip.conf
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-内容如下（阿里源）：
-```
-[global]
-index-url = http://mirrors.aliyun.com/pypi/simple/
-
-[install]
-trusted-host=mirrors.aliyun.com
-```
-或者使用清华源
-```
-[global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-
-[install]
-trusted-host = https://pypi.tuna.tsinghua.edu.cn
-```
-
 
 ## Tensorflow
 
